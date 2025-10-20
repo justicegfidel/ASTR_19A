@@ -1,0 +1,18 @@
+ #In each case, have the program print out the data type of the resulting answer.
+ #Write a Python that prints the sum of two floating point numbers
+num_1 = 1.0
+num_2 = 2.5
+float_sum = num_1 + num_2
+#message = (f"Sum of two floating point numbers: {float_sum}")
+print(f"Sum of two floating point numbers: {float_sum}")
+print()
+
+#The difference between two integers
+diff_of_int = 10 - 1
+print(f"Difference between two integers: {diff_of_int}")
+print()
+
+#The product of a floating point number and an integer. 
+product = num_1 * diff_of_int
+print(f"Product of a floating number and an integer: {product}")
+print()
