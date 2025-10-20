@@ -1,0 +1,23 @@
+#Write a Python program that writes out a table of the function sin(x) vs. x
+#Where x is tabulated between 0 and 2pi with a thousand entries. Follow the basic Python program structure, including a main program function.
+
+
+import numpy as np
+import math
+
+def main():
+    start = 0
+    end = 2
+    num_points = 1000
+    step = (end - start) / (num_points - 1)
+
+    print(f"{'x':>10} {'sin(x)':>15}")
+    print("-" * 26)
+
+    for i in range(num_points):
+        x = start + i * step
+        sin_x = math.sin(x)
+        print(f"{x:10.5f} {sin_x:15.5f}")
+
+if __name__ == "__main__":
+    main()
