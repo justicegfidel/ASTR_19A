@@ -1,0 +1,3 @@
+print(f'My Name is Justice Fidel.')
+print(f'Pronouns: He/Him')
+print(f'My favoroite movie is "Finding Nemo", and my favorite food is Sushi.')
