@@ -1,0 +1,23 @@
+class Animal:
+	def __init__(self, name, length_of_arms, number_of_legs, number_of_eyes, has_tail, is_furry):
+		self.name = name
+		self.length_of_arms = length_of_arms
+		self.number_of_legs = number_of_legs
+		self.number_of_eyes = number_of_eyes
+		self.has_tail = has_tail
+		self.is_furry = is_furry
+
+	def describe(self):
+		print(f'Animal name: {self.name}')
+		print(f'Length of arms: {self.length_of_arms} mm')
+		print(f'Number of legs: {self.number_of_legs}')
+		print(f'Number of eyes: {self.number_of_eyes}')
+		print(f'Does it have a tail: {self.has_tail}')
+		print(f'Is it furry: {self.is_furry}')
+
+def main():
+	spider = Animal("Phidippus Regius", 12, 8, 8, "No", "Yes!!!(SO CUTE)")
+	spider.describe()
+
+if __name__ == "__main__":
+	main()
